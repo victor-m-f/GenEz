@@ -1,0 +1,59 @@
+{
+  "spellings": [
+    "Victor",
+    "Vitor",
+    "Vítor"
+  ],
+  "isFirstName": true,
+  "isSurname": false,
+  "isFemale": false,
+  "isMale": true,
+  "nameOriginsIds": [
+    "FCB12666-B2F2-4A00-A9E8-0B48E46653CD"
+  ],
+  "relatedPersonNamesIds": [],
+  "nicknames": [
+    "Vic",
+    "Vitinho"
+  ]
+}
+@
+{
+  "spellings": [
+    "João Victor",
+    "João Vitor",
+    "João Vítor"
+  ],
+  "isFirstName": true,
+  "isSurname": false,
+  "isFemale": false,
+  "isMale": true,
+  "nameOriginsIds": [
+    "FCB12666-B2F2-4A00-A9E8-0B48E46653CD",
+    "24ecc259-89e2-4b20-b1f5-7890a5e4e820"
+  ],
+  "relatedPersonNamesIds": [],
+  "nicknames": []
+}
+@
+{
+  "spellings": [
+    "Melissa",
+    "Mellissa",
+    "Melyssa"
+  ],
+  "isFirstName": true,
+  "isSurname": false,
+  "isFemale": true,
+  "isMale": false,
+  "nameOriginsIds": [
+    "0C101315-5611-4967-ACB0-27E124D5DE1C"
+  ],
+  "relatedPersonNamesIds": [],
+  "nicknames": [
+    "Mel",
+    "Meli",
+    "Lissa",
+    "Memel"
+  ]
+}

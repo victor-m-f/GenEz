@@ -1,0 +1,256 @@
+﻿.scheme-container {
+    background: #1B1B1B !important;
+}
+
+#swagger-ui {
+    background: #252525 !important;
+}
+
+html {
+    background: #252525 !important;
+}
+
+.swagger-ui .info .title {
+    font-size: 36px;
+    margin: 0;
+    font-family: sans-serif;
+    color: #EAEAEA;
+}
+
+.swagger-ui .info li, .swagger-ui .info p, .swagger-ui .info table {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #EAEAEA;
+}
+
+.swagger-ui a.nostyle, .swagger-ui a.nostyle:visited {
+    text-decoration: inherit;
+    color: #EAEAEA;
+    cursor: pointer;
+}
+
+.swagger-ui section.models h4 {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+    transition: all .2s;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.swagger-ui .model-title {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.swagger-ui section.models.is-open h4 {
+    margin: 0 0 5px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.swagger-ui section.models {
+    margin: 30px 0;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+}
+
+    .swagger-ui section.models .model-container {
+        margin: 0 20px 15px;
+        position: relative;
+        transition: all .5s;
+        border-radius: 4px;
+        background: rgba(0,0,0,.3);
+    }
+
+.model {
+    color: #DADADA !important;
+}
+
+.swagger-ui .tab li {
+    font-size: 12px;
+    min-width: 60px;
+    padding: 0;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.swagger-ui {
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+    .swagger-ui .response-col_status {
+        font-size: 14px;
+        font-family: sans-serif;
+        color: #DADADA;
+    }
+
+    .swagger-ui table thead tr td, .swagger-ui table thead tr th {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 12px 0;
+        text-align: left;
+        border-bottom: 1px solid rgba(59,65,81,.2);
+        font-family: sans-serif;
+        color: #DADADA;
+    }
+
+    .swagger-ui .response-col_links {
+        padding-left: 2em;
+        max-width: 40em;
+        font-size: 14px;
+        font-family: sans-serif;
+        color: #DADADA;
+    }
+
+    .swagger-ui .opblock-description-wrapper p, .swagger-ui .opblock-external-docs-wrapper p, .swagger-ui .opblock-title_normal p {
+        font-size: 14px;
+        margin: 0;
+        font-family: sans-serif;
+        color: #DADADA;
+    }
+
+    .swagger-ui .opblock .opblock-summary-description {
+        font-size: 13px;
+        flex: 1 1 auto;
+        word-break: break-word;
+        font-family: sans-serif;
+        color: #DADADA;
+    }
+
+    .swagger-ui .btn {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 5px 23px;
+        transition: all .3s;
+        border: 2px solid #55a;
+        border-radius: 4px;
+        background: #55a;
+        box-shadow: 0 1px 2px rgba(0,0,0,.2);
+        font-family: sans-serif;
+        color: #DADADA;
+    }
+
+    .swagger-ui .opblock .opblock-section-header {
+        display: flex;
+        align-items: center;
+        padding: 8px 20px;
+        min-height: 50px;
+        background: hsla(0,0%,0%,0);
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    }
+
+        .swagger-ui .opblock .opblock-section-header h4 {
+            font-size: 14px;
+            flex: 1;
+            margin: 0;
+            font-family: sans-serif;
+            color: #DADADA;
+        }
+
+    .swagger-ui .parameter__name {
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: .75em;
+        font-family: sans-serif;
+        color: #DADADA;
+    }
+
+    .swagger-ui .parameter__type {
+        font-size: 12px;
+        padding: 5px 0;
+        font-family: monospace;
+        font-weight: 600;
+        color: #55a;
+    }
+
+    .swagger-ui .btn.execute {
+        background-color: #55a;
+        color: #DADADA;
+        border-color: #55a;
+    }
+
+    .swagger-ui .topbar .download-url-wrapper .select-label select {
+        flex: 2;
+        width: 100%;
+        border: 2px solid #55a;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .swagger-ui input[disabled], .swagger-ui select[disabled], .swagger-ui textarea[disabled] {
+        background-color: hsla(0,0%,0%,0);
+        color: #888 !important;
+        cursor: not-allowed;
+    }
+
+    .swagger-ui .parameters-col_description input[type=text] {
+        width: 100%;
+        max-width: 340px;
+        border-color: #888;
+    }
+
+.topbar-wrapper img {
+    content: url('https://Capfystorage.blob.Distrib.Core.windows.net/institutional/540x180logoNomeHorizontal.png');
+}
+
+.swagger-ui .dialog-ux .modal-ux {
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    min-width: 300px;
+    max-width: 650px;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border: 1px solid #1B1B1B;
+    border-radius: 4px;
+    background: #252525;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
+    color: #DADADA !important;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 20px;
+    flex: 1;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 0;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content p {
+    font-size: 12px;
+    margin: 0 0 5px;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.swagger-ui label {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.swagger-ui .btn-group .btn:last-child {
+    border-radius: 0 4px 4px 0;
+    background: #888;
+    border: 2px solid #888;
+}

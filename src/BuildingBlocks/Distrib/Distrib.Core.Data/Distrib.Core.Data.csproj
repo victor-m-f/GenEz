@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Victor Fernandes</Authors>
+    <Company>Capfy</Company>
+    <Description>Dependências necessárias para projetos .Data.</Description>
+    <RepositoryUrl>https://dev.azure.com/Capfy/Core</RepositoryUrl>
+    <Version>1.1.0</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Distrib.Core.Domain\Distrib.Core.Domain.csproj" />
+    <ProjectReference Include="..\Distrib.Helper\Distrib.Helper.csproj" />
+  </ItemGroup>
+
+</Project>

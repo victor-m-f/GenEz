@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Victor Fernandes</Authors>
+    <Company>Capfy</Company>
+    <Description>Helpers, extensions e atributos que facilitam o desenvolvimento de forma geral.</Description>
+    <RepositoryUrl>https://dev.azure.com/Capfy/Core</RepositoryUrl>
+    <Version>1.1.0</Version>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Attributes\" />
+  </ItemGroup>
+
+</Project>
