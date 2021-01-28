@@ -16,6 +16,7 @@ namespace GenEz.Character.Data
         public DbSet<Ethnicity> Ethnicities { get; set; }
         public DbSet<Religion> Religions { get; set; }
         public DbSet<SexualOrientation> SexualOrientations { get; set; }
+        public DbSet<Education> Educations { get; set; }
 
         #endregion
 

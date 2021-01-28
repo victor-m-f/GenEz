@@ -17,6 +17,7 @@ namespace GenEz.Character.Application.Queries
         private readonly IEthinicityRepository _ethinicityRepository;
         private readonly ISocialClassRepository _socialClassRepository;
         private readonly ISexualOrientationRepository _sexualOrientationRepository;
+        private readonly IEducationRepository _educationRepository;
 
         public CharacterQueryHandler(
             IMapper mapper,
@@ -26,7 +27,8 @@ namespace GenEz.Character.Application.Queries
             IReligionRepository religionRepository,
             IEthinicityRepository ethinicityRepository,
             ISocialClassRepository socialClassRepository,
-            ISexualOrientationRepository sexualOrientationRepository)
+            ISexualOrientationRepository sexualOrientationRepository,
+            IEducationRepository educationRepository)
         {
             _mapper = mapper;
             _nameOriginRepository = nameOriginRepository;
@@ -36,6 +38,7 @@ namespace GenEz.Character.Application.Queries
             _ethinicityRepository = ethinicityRepository;
             _socialClassRepository = socialClassRepository;
             _sexualOrientationRepository = sexualOrientationRepository;
+            _educationRepository = educationRepository;
         }
 
         public async Task<IEnumerable<NameOriginDto>> GetAllNameOriginsAsync()
@@ -71,6 +74,11 @@ namespace GenEz.Character.Application.Queries
         public async Task<IEnumerable<SexualOrientationDto>> GetAllSexOrientationsAsync()
         {
             return (await _sexualOrientationRepository.GetAllAsync()).Select(x => _mapper.Map<SexualOrientationDto>(x));
+        }
+
+        public async Task<IEnumerable<EducationDto>> GetAllEducationsAsync()
+        {
+            return (await _educationRepository.GetAllAsync()).Select(x => _mapper.Map<EducationDto>(x));
         }
     }
 }

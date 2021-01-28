@@ -36,6 +36,8 @@ namespace GenEz.Character.Domain.Configuration
             _ = CreateMap<SocialClass, SocialClassDto>();
 
             _ = CreateMap<SexualOrientation, SexualOrientationDto>();
+            
+            _ = CreateMap<Education, EducationDto>();
         }
     }
 }

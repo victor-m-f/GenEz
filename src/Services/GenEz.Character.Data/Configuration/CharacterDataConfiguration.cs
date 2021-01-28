@@ -19,6 +19,7 @@ namespace GenEz.Character.Data.Configuration
             _ = services.AddScoped<IEthinicityRepository, EthinicityRepository>();
             _ = services.AddScoped<ISocialClassRepository, SocialClassRepository>();
             _ = services.AddScoped<ISexualOrientationRepository, SexualOrientationRepository>();
+            _ = services.AddScoped<IEducationRepository, EducationRepository>();
         }
     }
 }

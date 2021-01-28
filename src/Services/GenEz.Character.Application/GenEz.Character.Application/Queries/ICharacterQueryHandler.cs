@@ -13,5 +13,6 @@ namespace GenEz.Character.Application.Queries
         public Task<IEnumerable<EthnicityDto>> GetAllEthnicitiesAsync();
         public Task<IEnumerable<SocialClassDto>> GetAllSocialClassesAsync();
         public Task<IEnumerable<SexualOrientationDto>> GetAllSexOrientationsAsync();
+        public Task<IEnumerable<EducationDto>> GetAllEducationsAsync();
     }
 }

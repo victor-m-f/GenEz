@@ -14,7 +14,7 @@ namespace Distrib.Helper.Extensions
         /// <summary>
         /// Converts a string to an appropriate version for soft comparisons.
         /// </summary>
-        /// <param name="text">The <see cref="strinFtitleg"/> to be transformed.</param>
+        /// <param name="text">The <see cref="string"/> to be transformed.</param>
         /// <returns>A uppercase <see cref = "string" /> that does not contain traces of culture.</returns>
         public static string ToNeutral(this string text)
         {
@@ -39,6 +39,11 @@ namespace Distrib.Helper.Extensions
                 text :
                 char.ToLowerInvariant(text[0]) + text.Substring(1);
 
+        /// <summary>
+        /// Converts the first character to its uppercase equivalent, even if there are more than one word in the input.
+        /// </summary>
+        /// <param name="input">The <see cref="string"/> to be transformed.</param>
+        /// <returns>The input with the first character converted to its uppercase equivalent.</returns>
         public static string OnlyFirstToUpper(this string input) =>
             string.IsNullOrEmpty(input) ?
                 input :
